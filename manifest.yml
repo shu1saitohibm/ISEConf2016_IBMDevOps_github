@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iseconf2016ibmdevops-nodenosql
+  host: iseconf2016ibmdevops-nodenosql
+  disk_quota: 1024M
+  services:
+  - iseconf2016ibmdevops-nodenosql-cloudantNoSQLDB
